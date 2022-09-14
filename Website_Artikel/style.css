@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(169, 224, 253);  
+}
+.Container {
+    margin: 0px 0px 0px 250px;
+}
+
+.About {
+    font-size: x-large;
+    margin: 0px 0px 0px 0px;
+    padding-bottom: 32px;;
+    color: rgb(0, 0, 0);
+}
+
+.blog {
+    font-size: x-large;
+    margin: 0px 0px 0px 30px;
+    padding-bottom: 32px;;
+    color: rgb(0, 0, 0);
+}
+
+.News {
+    font-size: x-large;
+    margin: 0px  0px 0px 30px;
+    padding-bottom: 32px;;
+    color: rgb(0, 0, 0);
+}
+
+.hubungi {
+    font-size: x-large;
+    margin: 0px 0px 0px 30px;
+    padding-bottom: 32px;;
+    color: rgb(0, 0, 0);
+}
+
+.box {
+    width: 100vh;
+    height: 100vh;
+    background-color: rgb(169, 224, 253);
+}
+
+/* .navbar1 {
+    margin: 0px 0px 165px 200px;
+} */
+
+.card1 {
+    margin: 50px 0px 0px 100px;
+}
+
+.card2 {
+    margin: -335px 0px 0px 600px;
+}
+.image1 {
+    width: 250px;
+    height: 250px;
+    margin: -250px 0px 0px 700px;
+}
+
+.H1 {
+    margin: 0px 0px 0px 100px;
+}
+
+.text1 {
+    margin: 10px 0px 0px 100px;
+}
+
+.boxwhite {
+    height: 50px;
+    width: 50px;
+    margin: 50px 0px 0px 100px;
+    background-color: white;
+}
+
+.text2 {
+    margin: 0px 0px 0px 60px;
+}
+
+.boxblack {
+    height: 50px;
+    width: 50px;
+    margin: 50px 0px 0px 100px;
+    background-color: rgb(0, 0, 0);
+}
+
+.text3 {
+    margin: 0px 0px 0px 60px;
+}
+
+.boxgreen {
+    height: 50px;
+    width: 50px;
+    margin: 50px 0px 0px 100px;
+    background-color: rgb(18, 193, 42);
+}
+
+.text4 {
+    margin: 0px 0px 0px 60px;
+}
+
+.boxyellow {
+    height: 50px;
+    width: 50px;
+    margin: -250px 0px 0px 400px;
+    background-color: rgb(221, 254, 0);
+}
+
+.text5 {
+    margin: 0px 0px 0px 60px;
+}
+
+.boxpurple {
+    height: 50px;
+    width: 50px;
+    margin: 50px 0px 0px 400px;
+    background-color: rgb(162, 34, 221);
+}
+
+.text6 {
+    margin: 0px 0px 0px 60px;
+}
+
+.boxpink {
+    height: 50px;
+    width: 50px;
+    margin: 50px 0px 0px 400px;
+    background-color: rgb(222, 20, 117);
+}
+
+.text7 {
+    margin: 0px 0px 0px 60px;
+}
+
+.red1 {
+    margin: 50px 0px 0px 100px;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.textred {
+    margin: 0px 0px 0px 210px;
+    height: 200px;
+    width: 200px;
+}
+
+.blue1 {
+    margin: -200px 0px 0px 600px;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.textblue {
+    margin: 0px 0px 0px 210px;
+    height: 200px;
+    width: 200px;
+}
