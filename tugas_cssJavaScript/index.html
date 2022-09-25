@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+        <form method="dialog">
+        <!-- pembuatan nama lengkap nama punggung dan nomor punggung dengan menggunakan input -->
+        <h1 class="p1">Pendataan pembelian jersey Sepakbola</h1> <br>
+        <p>Nama Lengkap</p>
+        <Input type="text" class="input" id="nama" required></Input> <br>
+        <p>Nama Punggung</p>
+        <input type="text"  class = "input" id="nama_punggung" required> <br>
+        <p>Nomor Punggung</p>
+        <input type="number" class="input" min="1"  id="nomor_punggung" required><br>
+        <br>
+        <!-- kemudian untuk pilih posisi menggunakan select -->
+        <label for="Position">Pilih Posisi:</label> <br>
+        <select name="Position" id="posisi" class="input">
+            <option value="" selected disabled hidden>Pilih Posisi</option>
+            <option value="Kiper">Kiper</option>
+            <option value="Bek">Bek</option>
+            <option value="gelandang">gelandang</option>
+            <option value="penyerang">penyerang</option>
+          </select><br>
+          <br>
+          <!-- untuk pilih ukuran juga menggunakan select -->
+          <label for="Size">Pilih Ukuran:</label> <br>
+          <select name="Size" id="size" class="input">
+              <option value="" selected disabled hidden>Pilih Ukuran</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+              <option value="XL">XL</option>
+              <option value="XXL">XXL</option>
+          </select> <br>
+          <br>
+          <!-- untuk pilih pembayaran juga menggunakan select -->
+          <label for="pembayaran">Pembayaran:</label> <br>
+          <select name="pembayaran" id="pembayaran" class="input">
+              <option value="" selected disabled hidden>Pilih Pembayaran</option>
+              <option value="UM">Uang muka</option>
+              <option value="L">Lunas</option>
+          </select><br> <br>
+          <!-- dan untuk memasukkan bukti pembayaran disini menggunakan input dengan type file -->
+          <span>Masukkan Bukti Pembayaran</span> <br>
+          <input type="file" id="bukti" class="files" > <br> <br>
+          <br>
+          <button class="button" id="button">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
